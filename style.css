@@ -9,6 +9,7 @@ body {
   font-size: 1.2rem;
 }
 main {
+  padding: 20px 0 2px 0;
   background-color: rgba(27, 27, 50, 0.8);
 }
 #title, #description {
