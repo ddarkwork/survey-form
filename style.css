@@ -1,8 +1,10 @@
+/* Init Style */
 * {
   margin: 0;
   padding: 0;
   font-family: 'Tahoma', sans-serif;
 }
+/* Define the root var */
 :root {
   --main-color: #f3f3f3;
   --main-bgc: #2c2c51;
@@ -11,15 +13,22 @@
   --second-fz: 1.2rem;
   --third-fz: 1rem;
 }
+/* Style of body */
 body {
   background-color: var(--main-bgc);
   color: var(--main-color);
   font-size: var(--second-fz);
 }
+/* Center and define padding, widths for the form */
 main {
   padding: 20px 0 2px 0;
   background-color: rgba(27, 27, 50, 0.8);
+  min-width: 300px;
+  max-width: 900px;
+  width: 80%;
+  margin: 0 auto;
 }
+/* Style of title and description */
 #title, #description {
   text-align: center;
 }
@@ -32,16 +41,11 @@ main {
   margin: 15px 0 40px 0;
   font-style: italic;
 }
-main {
-  min-width: 300px;
-  max-width: 900px;
-  width: 80%;
-  margin: 0 auto;
-}
 fieldset {
   padding: 15px;
   border: none;
 }
+/* display block of all labels, input and textarea, submit button */
 #name-label, #email-label, #number-label, #name, #email, #number, #role, #feature, textarea, #submit {
   display: block;
   width: 100%;
@@ -49,6 +53,7 @@ fieldset {
 .recommandations-labels, .improved-label {
   display: block;
 }
+/* Adjust size of font, padding, margin of the inputs, select, and textarea */
 input, select {
   font-size: var(--second-fz);
   padding: 10px 0;
@@ -58,6 +63,7 @@ textarea {
   margin-top: 10px;
   padding: 10px 0;
 }
+/* Style of button submit and submit hover */
 #submit {
   padding: 10px;
   background-color: #37af65;
